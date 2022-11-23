@@ -13,7 +13,7 @@ class App : TSApplication() {
     }
 
     override fun getMainActivityLaunchIntent(): Intent {
-        TODO("Not yet implemented")
+        return Intent(this, MainActivity::class.java)
     }
 
     override fun handleAgentEvent(intent: Intent) {}
